@@ -6,6 +6,12 @@ package org.test;
 public class InstableClient {
 
 
+   public void addMethod(){
+
+       System.out.println("this is an unstable client");
+   }
+
+
     public static void main (String...st){
 
         IEmploye employe = new Professor("Elyes","Prof");
